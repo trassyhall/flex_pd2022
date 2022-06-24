@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("https://interier-foto.ru/wp-content/uploads/cherno-belye-gory.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.userContainer > *{
+    align-items: center;
+}
+.photoUser{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    overflow: hidden;
+}
+.photoUser > img{
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    
+}
+.infoUser{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
