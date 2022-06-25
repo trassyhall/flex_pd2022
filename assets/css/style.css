@@ -1,43 +1,122 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: grey;
-}
-.container{
-    width: 400px;
-    height: 600px;
-    background-color: white;
-    border-radius: 7px;
-    margin: 0 auto;
-}
-.header{
-    background-image: url("https://interier-foto.ru/wp-content/uploads/cherno-belye-gory.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-}
-.userContainer > *{
-    align-items: center;
-}
-.photoUser{
-    width: 200px;
-    height: 200px;
-    border: 5px solid white;
-    overflow: hidden;
-}
-.photoUser > img{
-    width: inherit;
-    height: inherit;
-    border-radius: 50%;
-    
-}
-.infoUser{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+:root {
+    --font-primary-color: white;
+    --font-second-color: #FA4A0C;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 49.5px;
+}
+
+.menu {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 64px;
+}
+
+.innerMenu li {
+    margin-right: 114px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.innerMenu a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--font-second-color);
+}
+
+button {
+    height: 68px;
+    width: 236px;
+    left: 0px;
+    top: 0px;
+    border-radius: 30px;
+    padding: 16px, 0px, 16px, 0px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin-top: 78px;
+    color: #FFFFFF;
+}
+
+.btnOne {
+    background: #FA4A0C;
+    border: none;
+    margin-right: 35px;
+}
+
+.btnTwo {
+    background: none;
+    border: 1px solid white;
+}
+
+.restApp {
+    background-image: url("../images/back1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 0px 178px 0px;
+    margin-top: 63px;
+}
+
+.restApp h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin-top: 80px;
+    color: #F7F7F7;
+}
+
+.restApp h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-top: 10px;
+    margin-left: 319px;
+    margin-right: 322px;
+    color: #FFFFFF
+}
+
+.restApp h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-top: 15px;
+    color: #F7F7F7;
+}
